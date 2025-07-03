@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "819a8357-47fb-44dc-a6e6-403ac432a468",
+		"name": "SBI - POC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "46177119",
+		"_collection_link": "https://vaishnavmsudhish.postman.co/workspace/Vaishnav-M-Sudhish's-Workspace~bc2ea9fb-1793-4324-8cfa-7b46d31a4a6a/collection/46177119-819a8357-47fb-44dc-a6e6-403ac432a468?action=share&source=collection_link&creator=46177119"
+	},
+	"item": [
+		{
+			"name": "Create Customer Account",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customer_id\": \"V4025\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/create-account",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"create-account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Withdraw Funds",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"customer_id\": \"V4025\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/create-account",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"create-account"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fund Account",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
